@@ -1,0 +1,16 @@
+Game A Week 2.
+ForceRecon
+
+A narrative experience set in the Halo universe. Similar in style to the TellTale games you make narrative choices that develop the story.
+Unfortunately i've been unable to complete some of the narrative decisions due to a lack of time. 
+The necessary choices to complete the story goes 
+1.“Those alien bastards destroyed my home and killed my friends, I'm gonna make sure they pay for that in blood.”  
+2.”You lash out at the figure at your side”. 
+Some decisions will direct you to blank passages, simply go back and select another option.
+
+I used Twine due to its ease of use which allowed me to focus on the writing side of this assignment.
+
+The html doc in the stories folder is the twine code(the file only opens in twine) while the one in the Twinegame folder is the published game if that makes any sense.
+
+
+Video Link: https://drive.google.com/file/d/1UxbUs9XLbkq2k8T-I2BmtzInEbU24tWv/view?usp=sharing

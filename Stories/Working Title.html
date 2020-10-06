@@ -1,0 +1,291 @@
+<tw-storydata name="Working Title" startnode="1" creator="Twine" creator-version="2.2.1" ifid="CD8CB35B-94EC-4F96-9297-DBF819936A64" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+</script><tw-passagedata pid="1" name="Story Start" tags="" position="275,328" size="100,100">You are Sgt Lara Diaz, a 35 year old woman with slight hispanic features. You were born on the outer colony Madrigal in 2521. 
+In 2528 the colony was attacked and subsequently glassed by the bloodthirsty Covenant, a collection of religious fanatics made up of numerous alien races hellbent on humanity&#39;s total destruction. 
+Fortunately you and your family escaped to the Rubble, a collection of hollowed out asteroids that served as your home for 7 years until you were evacuated to the inner colony of Falaknuma. 
+At 18 you enlisted in the UNSC Army to the dismay of your family and friends who had close insurrection ties.
+
+[[Those alien bastards destroyed my home and killed my friends, I&#39;m gonna make sure they pay for that in blood. -&gt; Revenge]]
+
+[[The Covenant are a threat to every human in existence, the only way we&#39;re going to survive is by uniting together. Old grudges mean nothing in the face of extinction. -&gt; Realist]]
+
+[[They killed my friends and wiped out my home. There&#39;s no way I&#39;m going to stand aside as they do the same to billions more. -&gt; Duty]]
+</tw-passagedata><tw-passagedata pid="2" name=" Revenge" tags="" position="356,175" size="100,100">(set: $revenge to true)Overcome by bloodlust and dreams of vengeance you refused to stand idly by. 
+The Covenant had committed acts of monstrous violence against humanity and as long as you were breathing you were going to make sure every last covie you came across died drowning in a pool of their own blood.
+Your family didn&#39;t agree with your reasons but frankly you didn&#39;t give a shit what they thought. 
+For the first time in your life you had a goal, to kill as many alien bastards as possible and it just so happened the UNSC were more than happy to provide you with plenty of targets.
+
+The day the transport ship arrived you were waiting alone, your family had refused to come. They still held onto the hope you&#39;d change your mind and return home but you knew that wasn&#39;t possible anymore. The seed of revenge had been planted into your mind.
+
+With steely cold eyes you looked back at the dock from the ship&#39;s airlock before finally entering the ship never to see your family again. It wasn&#39;t until the transport reached orbit that you noticed tears on your cheeks.
+
+[[Next -&gt; Basic]]
+</tw-passagedata><tw-passagedata pid="3" name=" Realist" tags="" position="418,528" size="100,100">(set: $realist to true)In your mind joining the UNSC was the only option.
+Only the UNSC had a chance of halting the Covenant war machine as slim as that chance was. This war was bigger than you, bigger than age old grudges of the older generation. 
+This was not a war of ideals but of survival and survival trumps all.
+
+Eventually your family begrudgingly agreed with your choice although they still resented the UNSC for the pain and suffering they inflicted on the Outer Colonies. 
+This caused a strain in your relationship with your family. Your mother steadfast refused to accept your choice and overtime became cold to you however your sister and father supported you throughout.
+
+The day the transport arrived to take you to basic training your father and sister came to say their goodbys. You hugged them both tightly before making your way into the ship.
+With cheeks wet with shed tears you looked back towards your family, your sister holding tightly onto your father. Just as the doors seal shut you make out a figure approaching them, you can&#39;t tell if it&#39;s your mother or not.
+
+[[next -&gt; Basic]]
+</tw-passagedata><tw-passagedata pid="4" name=" Duty" tags="" position="410,335" size="100,100">(set: $duty to true)The Covenant had torn your life apart and would do the same to billions more.
+You couldn&#39;t simply stand aside and allow billions to die, you had a duty to humanity to fight, to not go silently into the night and allow billions of families be slaughtered by the mercelest Covenant hord.
+If people like you looked the other way as planets were reduced to glass then this war was already lost.
+
+Your family although upset with your choice understood your drive to protect other families from what yours had experienced. The day before you were shipped off to basic training your mother approached you. She told you that although she wasn&#39;t happy with your choice she was proud of you and would support you. You spent the rest of your day with your family watching those stupid 20th century films your sister loved, it was both the happiest and saddest day of your life.
+The next day the transport that would take you away to war arrived. You said your goodbys and boarded the ship. With tears stinging your eyes you took one last look at your family. You were going to miss them terribly but this was your duty, to protect them, no matter the cost.
+
+[[Next -&gt; Basic]]
+</tw-passagedata><tw-passagedata pid="5" name=" Basic" tags="" position="669,283" size="100,100">Basic training was hell. 
+Every day you and the rest of the recruits were pushed to breaking point by the instructors. 
+It seemed breaks were a foreign concept to the UNSC as the training never seemed to let up. From 6am till 9pm you were taught and beaten into a soldier. You learnt to run until your feet started to bleed then run further still. You learnt how to field strip every weapon in the UNSCs arsenal. You learnt what humanity had spent their entire existence perfecting, the art of war.
+
+(if: $revenge is true)[But throughout it all your drive for vengeance never dimed. The rage you felt pushed you forward, pushed you to be faster, tougher and deadlier.
+
+It defined you.
+
+The instructors recognised this drive and pushed you hard, focused that rage and anger you felt into your training. 
+Soon you were top of your class, a warrior of no equal. 
+A symbol of humanity&#39;s fury.
+
+[[Next -&gt; Battle Of Earth]]]
+(if: $duty is true)[But your sense of duty to protect your family remained true throughout. At some point your fellow recruits fell under that duty as well. You&#39;d find yourself pushing your fellow recruits onwards and soon you fell into the unofficial position of leader. A role you didn&#39;t chose but one you accepted.
+By the end of basic you also embraced another new role. A much larger and more important role. 
+
+You had been forged into humanity&#39;s sword and shield.
+
+A duty that would go on to be a defining feature of who you were.
+
+[[Next -&gt; Battle Of Earth]]]
+(if: $realist is true)[However throughout basic you never once questioned your decision to fight, to stand and be counted. And you found yourself sharing that conviction with your fellow recruits. You all looked out for eachother day in day out. If someone stumbled everyone helped them back up, your place of origin meant nothing, your past irrelevant.
+Your fellow recruits had become family in all but blood.
+A family you&#39;d happily fight and die for.
+
+Days before you complete Basic training you received a message from your mother asking for a chance to meet.
+
+[[You agree to meet with your mother. -&gt;Reconciliation]] 
+
+[[She had her chance before you left. As far as your concerned you don&#39;t have a mother anymore -&gt; Battle Of Earth]]]
+</tw-passagedata><tw-passagedata pid="6" name=" Bar" tags="" position="952,470" size="100,100">Walking through the door you are once again overwhelmed by old memories resurficing. You remember the first time you came here, it was days after escaping the rubble and your father insisted on taking the family out for a meal. You dont remember what his reason was but you knew it was to try and take your mind off the war. You smile to your self, god knows that didnt work. 
+You scan the resteraunt looking for you mother. You spot her sitting alone in a booth at the back of the room. You take one more breath to steel your self befor making your way over to her.</tw-passagedata><tw-passagedata pid="7" name="Reconciliation" tags="" position="741,456" size="100,100">You agree to meet your mother in a local bar your family used to frequent, the memories bring a smile to your face as you gaze upon the restaurant before your thoughts return to your mother.
+You release a breath you didnt realise you were holding, you hadn&#39;t talked to your mother in over a year and her rejection of your choice still stung.
+
+You begin to doubt your decision in coming here.
+
+[[You&#39;ve come this far, no point turning back now -&gt; Bar]]
+[[You cant do this, shes hurt you too much. Perhaps one day but not right now -&gt; Battle Of Earth]] </tw-passagedata><tw-passagedata pid="8" name=" Battle Of Earth" tags="" position="872,277" size="100,100">The war continued for 16 years. 
+World after world fell to the seemingly endless covenant hord, no matter how hard you fought, how many of your friends died in battle the result was almost always the same. 
+Total defeat.
+
+You knew it was only a matter of time until the covenant discovered Earth and when that happened it would be the fall of humanity.
+
+And on the 20th of october the inevitable happened. 
+The Covenant found Earth.
+
+At the time you were stationed at one of the many martian industrial zones, tasked with protecting the vital manufacturing facilities that supplied the UNSC with ships and equipment. 
+You and your fellow marines geared up and readied what would most likely be your final stand.
+Under the command of Colonel Ackerson your unit (if: $revenge is true)[fought like demons. You personally gunned down entire legions of the covie bastards and did so with a feral smile on your face. You didn&#39;t care if you were going to die, this was your only purpose and if you were going to hell, well so be it but you were dam well gonna make sure it was populated with those alien scum when you got there.](if: $duty is true)[fought valiantly. You personally held the line against legions of covenant troops as your fellow marines fell by your side. You were humanity&#39;s sword and shield and no matter the odds you would stand fast till the last man.](if: $realist is true)[battled against the insurmountable odds. Together your unit repealed wave after wave of covenant soldiers. When your ammunition ran out you and your brothers and sisters in arms used your knives, and when those blades had dulled or broken you resorted to your fists. This was the end and you refused to go out quietly.]
+But no matter how hard you fought their numbers were greater.
+In the end it was only a matter of time until your position was overrun. Surrounded by the dead you were finally brought down by a stray spiker round, the round punched through your cover and skewered you through the gut. Pinned to the wall a darkness enveloped your being and you slipped into unconsciousness.
+
+[[Next -&gt;Awakening]]</tw-passagedata><tw-passagedata pid="9" name="Awakening" tags="" position="1029,287" size="100,100">Two days later you returned to the land of the living. Confused you thrashed around in your bed scambing at the numerous surgical tubes that were connected to you.
+It was then numerous figures rushed to your side. One firmly gripped your shoulder. 
+
+[[You then took a deep breath and calmed your racing mind -&gt; Calm]]
+
+[[Jerking your head to the side you observed the figure -&gt; Assessment]]
+
+(if: $revenge is true)[[[You lash out at the figure at your side -&gt; Violence]]]
+</tw-passagedata><tw-passagedata pid="10" name=" Calm" tags="" position="1155,426" size="100,100">(set: $calm to true)You were confused and distressed but your training forced you to still, to calm and assess the situation.
+
+The Covenant rarely took prisoners and the certainly didn&#39;t care for them so it was extremely unlikely you had been taken prisoner.
+No you had to be in the care of humans and as your vision cleared you could finally make out the figure next to you. Rather than a 7 foot splitjaw it was a small blond woman in her 30s wearing a white lab coat. She smiled kindly down at you before removing her hand from your shoulder.
+
+She introduced herself as Dr Katie Robertson before babbling on about how fortunate you were to have survived or something.
+
+[[&quot;Where am I?&quot; -&gt; Location]]
+
+[[&quot;How long have I been out?&quot; -&gt; State Of The War]]
+
+[[Next -&gt; Debreif]] </tw-passagedata><tw-passagedata pid="11" name=" Violence" tags="" position="1245,259" size="100,100">(set: $violence to true)Your training kicked in immediately. Your left hand lashed out at the figure gripping your shoulder striking it in the face.
+You were then immediately set upon by the other figures in the room.
+Thrashing and bucking like a wild animal you struggled to break out of their hold before feeling a sharp prick in your left arm.
+Almost immediately you fell still and the world seemed to melt around you before you once again succumbed to the darkness.
+
+[[Next -&gt; Debreif]] </tw-passagedata><tw-passagedata pid="12" name=" Location" tags="" position="1382,447" size="100,100">Smile still plastered on her face to doctor spoke
+&quot;You at the Carter Hospital in Kenoshia, you suffered a spiker wound during the battle of Mare Erythraeum, it was touch and go for a few days but god knows you marines are a stubborn lot.&quot; 
+
+[[&quot;How long have I been out?&quot; -&gt; State Of The War]]
+
+(if: $assessment is true)[[[Back -&gt; Assessment]]] (if: $calm is true)[[[Back -&gt; Calm]]]
+</tw-passagedata><tw-passagedata pid="13" name=" State Of The War" tags="" position="1347,74" size="100,100">&quot;Oh about 3 weeks&quot; she replied 
+
+&quot;3 weeks!?&quot; you asked in confusion &quot;But what about the war?&quot;
+You&#39;d seen the reports from Earth, the Covenant had arrived in force.
+It had taken just over a month for Reach, the fortress world of the UNSC to fall. Although it wasnt said everyone knew it was only a matter of weeks until the Sol system suffered the same fate. By now the Covenant armada should have reduced the city of Kenosha and by extention you, into a sea of glass.
+
+You were broken out of your thoughts by a short laugh.
+You turned back to look at Dr Robertson.
+Her smile had grown even wider and her eyes seemed to shine with happiness.
+&quot;Its over&quot; she exclaimed &quot;The war is over, we won&quot;
+
+Shocked you slumped back into the bed. The war was... over. Humanity had survived.
+
+[[&quot;Where am I?&quot; -&gt; Location]]
+
+(if: $assessment is true)[[[Back -&gt; Assessment]]] 
+(if: $calm is true)[[[Back -&gt; Calm]]]</tw-passagedata><tw-passagedata pid="14" name=" Assessment" tags="" position="1141,130" size="100,100">(set: $assessment to true) Your racing mind slowed as you observed the figure. Your training jumped to the forefront of your mind as you searched for potential threats.
+Slowly it dawned on you that you weren&#39;t at the mercy of some Covenant creature but that of a small smiling woman.
+
+She introduced herself as Dr Katie Robertson before babbling on about how fortunate you were to have survived or something.
+
+[[Next -&gt; Debreif]]
+
+[[&quot;Where am I?&quot; -&gt; Location]]
+
+[[&quot;How long have I been out?&quot; -&gt; State Of The War]]
+</tw-passagedata><tw-passagedata pid="15" name=" Debreif" tags="" position="1504,274" size="100,100">(if: $violence is not true)[The smiling doctor once again gently gripped your shoulder 
+&quot;Don&#39;t worry we&#39;re safe now&quot; she said as you looked at her &quot;Now I&#39;m sure you have a million questions but I&#39;m afraid there going to have to wait. You still need plenty of rest and I have no doubt one of those dam ONI people will be around soon to let you know all that&#39;s happened. But for now rest, Doctors orders&quot; she said with a wink before walking through the door and down some corridor.
+It was only then that you realised just how exhausted your body was, it felt like you hadn&#39;t slept in centuries. Almost instantly you slipped into a deep dreamless sleep.]
+
+(if: $violence is true)[The next time you came too was much calmer. 
+Rather than being a Covenant prisoner your were infact a patient at Carter Hospital in Kenoshia and the figure you could have sworn was a 7 foot tall splitjaw bastard? Well she turned out to be your doctor, who you proceded to punch in the face.
+You grimaced, that probably wasnt your finest moment.]
+
+It was three days later when you recived a visitor, a Major Matterson.
+A short stocky scottish man in his 50, the Major didnt cut the most imposing figure but he exuded that no bullshit aura that all drill sergeants seemed to have been born with. 
+
+The Major gave you a hard stare before speaking
+(if: $revenge is true)[&quot;Quite a record you have Coporal Diaz. Top of your class at basic, multiple commendations in the field and an even greater number of reprimands. 
+Psych evals paint you as an unstable nutjob, my words, not theirs. Their recomending an honorable distarge and treatment for post tromatic stress.&quot;
+
+Your eyes narrow as you glare at the the Major
+
+[[&quot;With all due respect sir, half the god dam navy is suffering from PTSD&quot; you growled defensively. -&gt;Major Response Defensive]]
+
+[[&quot;So thats how it is. After all ive sacrificed im thrown aside the moment the war&#39;s over&quot; -&gt;Major Response Anger]]
+]</tw-passagedata><tw-passagedata pid="16" name="Major Response Defensive" tags="" position="1656,146" size="100,100">The Major chuckled 
+&quot;Hah You make a good point there marine&quot;
+he remained silent for a moment before starting again
+&quot;They say now the wars over humanity is once again safe, that there&#39;s no longer any need for blunt weapons of war like yourself.&quot; he said as he looked out the rooms window overlooking the city &quot;But are we really any safer? The Covenant didn&#39;t simply disappear. They fractured. Splintered into hundreds of smaller factions all vying for power. Now instead of one massive empire hell bent on our destruction we have a dosen smaller potential threats eying a weakened humanity. We cut off the monsters head but that doesnt mean its dead&quot;
+
+&quot;Sir. Why are you here? Just to tell me I’m no longer of any use to the UNSC?&quot; you ask in a frustrated tone.
+
+The Major turned from the window to look at you and you suddenly noticed how tired his eyes looked
+&quot;No Diaz, I’m here to offer you a place in Force Recon&quot; he said as he straightened upright &quot;It may not know it but humanity still needs soldiers like you and I’ll be damned if I’m going to let some fucking Psych kick you to the dirt&quot;
+
+The Major walked to the doorway before looking back at you &quot;You have 3 weeks to mull it over, then i need an answer.&quot; he said before saluting and marching out the door.
+
+[[Next -&gt;Force Recon]]
+
+</tw-passagedata><tw-passagedata pid="17" name="Major Response Anger" tags="" position="1660,355" size="100,100">[[Next -&gt;Force Recon]] </tw-passagedata><tw-passagedata pid="18" name="Force Recon" tags="" position="1910,249" size="100,100">Two Years Later
+
+Gunnery Sergeant Lara Diaz.
+29th Force Recon Company attached to UNSC Lexington.
+On route to CSV Pecheron.
+
+&quot;One minute to contact&quot; announced the Pelican dropship pilot
+
+Raising your MA5K carbine you give it one final visual check. The rifle is legendarily reliable but you didn&#39;t survive this long by being lax with standards.
+Switching to the squad frequency you make yourself known to the squad
+&quot;Alright boys and girls, you know the drill. If its ugly or has feathers kill it otherwise watch your fire. We got a possible 7 civis onboard and I really don&#39;t feel like filling out the collateral damage forms today. Oorah?&quot;
+&quot;Oorah&quot; came the immediate response from the squad.
+
+The pilot&#39;s voice filled the dropship again &quot;10 seconds&quot;
+
+You and your squad got to your feet before turning to face the rear of the Pelican as the ramp lowered to show the empty black of space
+
+&quot;Contact, your green marines.&quot;
+
+And with that you and your squad slipped out into the black and towards the blocky gray shape that was the CSV Pecheron.
+Seconds later your feet made contact with the smooth metal hull of the Pecheron. Weapons up you made your way to the Airlock before one by one slipping into the belly of the ship.
+
+[[Next -&gt; Contact]]
+
+</tw-passagedata><tw-passagedata pid="19" name=" Contact" tags="" position="2076,257" size="100,100">&quot;Artificial gravity&#39;s out gunny&quot; stated one of the marines as the squad fanned out into a corridor.
+
+Cautiously the squad move through the ship clearing room by room until they come across the ships cargo hold filled with with containers.
+
+Suddenly the cargo hold is filled with bright pink needle fire.
+Rushing into cover you spot 4 Jackals further down the hold.
+
+[[Sighting your rifle on the closest jackal you fire off a burst -&gt; Headshot]]
+
+[[You spray your rifle towards the 4 jackals -&gt; Suppressive Fire]]
+</tw-passagedata><tw-passagedata pid="20" name=" Headshot" tags="" position="2120,433" size="100,100">(set: $privateMorrisKIA to true)Your rifle bucked in your hands as you opened fire at the jackal.
+A plume of purple blood appeared behind the alien as two of your rounds found their target.
+Slipping back into cover a burst of needle rounds slam into one of your fellow marines killing him instantly.
+Snarling to yourself you once again emerge from your cover and fire another burst at the Jackal responsible killing it.
+A few seconds latter silence once again encompasses the hold.
+
+&quot;Shit! They got Morris&quot; announced a marine over the radio
+
+&quot;Mark his body, we&#39;ll come get him later&quot; you said as you sweep the hold for any hiding Jackals &quot;Focus up people, let&#39;s not lose anyone else&quot;
+
+[[Next -&gt; Bridge]]
+</tw-passagedata><tw-passagedata pid="21" name=" Bridge" tags="" position="2324,259" size="100,100">Leaving the hold you and your squad move through the ship until you arrive at the bridge entrance.
+
+The squad stacks up on the door and ready themselves for a breach.
+One of the marines counts down from three before the door is blown open by a small charge.
+
+In a breach speed was what kept you alive, any hesitation on your part could and probably would result in you laying in a pool of your own blood. It was something the marines had drilled into them from day one, be fast or be dead. 
+
+Rushing into the bridge you have seconds to identify the hostiles, pick a target and neutralize them.
+
+[[You spot a jackal holding a bright blue energy sword about to strike down one of the civilians, you sight your rifle and pull the trigger -&gt; Civilian Saved]]
+
+[[You spot a jackal as the back of the room with a needle rifle, sighting your rifle you fire a burst at it -&gt; Civilian Down]]
+
+</tw-passagedata><tw-passagedata pid="22" name=" Suppressive Fire" tags="" position="2211,101" size="100,100">(set: $privateMorrisKIA to not true)Leaning out of your cover you spray a dozen rounds towards the 4 jackals forcing them to take cover behind the containers.
+A stray needle round ricochets off one of the marines helmets as one of the jackals blindly fires around his cover.
+&quot;Fuck!&quot; shouts one of the marines.
+Slipping back into cover you look over at the marine responsible for the outburst.
+&quot;You hit Morris?&quot; you call out as you peek past the container acting as your cover
+&quot;Nah I&#39;m good gunny but fuck me was that close&quot;
+Leaning out of cover Private Morris&#39;s DMR let off a deep bark as it spat out a high velocity round. Almost instantly one of the jackals jerks, its head violently snappes back as sections of bone and brain matter spin lazily away.
+&quot;Got the bastard&quot; said Morris as he moved back into safety behind a container
+
+A few seconds later silence once again enveloped the hold.
+
+&quot;Anyone hit?&quot; you ask as you sweep the hold for any hiding Jackals
+
+&quot;Were good gunny&quot; responded your marines
+
+You smile to yourself, 4 to 0, that was a scoreline you could live with.
+
+[[Next -&gt; Bridge]]
+</tw-passagedata><tw-passagedata pid="23" name=" Civilian Saved" tags="" position="2444,393" size="100,100">Sighting your carbine you pumped two rounds into the jackal that was wielding the sword, the first round strikes it dead center in the chest, the second tears into the jackals throat, killing it instantly.
+Taking a fraction of a second to make sure it was dead you shift your view to the right hand side of the bridge. Hugging the wall you move rapidly towards the corner of the room.
+
+Reaching the corner you spie a man struggling to his feet, grabbing him by the scruff of his neck, you forced him to the ground behind a console. With a muffled groan his head hits the deck.
+
+Planting your knee into the small of the man’s back you raised your MA5K and unleash a volley of fire towards a Jackal forcing it back behind its cover.
+
+“Jesus Fucking Christ !” screams the man as he tries his best to wriggle free from under your knee.
+
+[[Ignoring the struggling man you fire another burst -&gt; Death]]
+[[&quot;Stay down or I&#39;ll knock you the fuck out!&quot; -&gt; Survival]]
+</tw-passagedata><tw-passagedata pid="24" name=" Civilian Down" tags="" position="2448,87" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="25" name=" Death" tags="" position="2369,543" size="100,100">Ignoring him you ready your rifle for another burst.
+Suddenly he bucks beneath you throwing off your aim. Your miss the Jackal.
+
+Unfortunately the Jackal doesn&#39;t miss you. The needle round slams into your face plate killing you instantly. 
+</tw-passagedata><tw-passagedata pid="26" name=" Survival" tags="" position="2615,396" size="100,100">“Stay down or I&#39;ll knock you the fuck out!” you scream as needler shards slam into the console.
+
+The man under you knee stills instantly, he&#39;s probably now more scared of you than of the Jackals. 
+Once again popping out of cover your fire a burst into one of the jackals hitting it in the chest and killing it.
+Crouching back down behind the console you wait for the return fire to slam into the console but all is quiet.
+Cautiously you peek over your cover to survey the room.
+The room is a mess with bullet holes littering almost every surface and jackal corpses eerily swaying in zero g, their mag boots keeping them routed to the floor.
+&quot;All clear gunny&quot; announced a marine as he stood up from his cover
+
+(if: $privateMorrisKIA is not true)[Letting out a breath you acknowledge the marine. 
+A bunch of dead aliens and not one human casualty, not a bad day&#39;s work if you do say so yourself.]
+(if: $privateMorrisKIA is true)[Letting out a breath you acknowledge the marine. You sigh sadly, you&#39;ve seen plenty of soldier die but that doesnt ever make it easier.]
+</tw-passagedata></tw-storydata>
